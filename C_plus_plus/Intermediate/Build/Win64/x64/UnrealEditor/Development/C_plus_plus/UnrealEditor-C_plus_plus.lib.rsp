@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-C_plus_plus.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:/Users/2406616/Documents/Unreal Projects/C_plus_plus/Intermediate/Build/Win64/x64/C_plus_plusEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.obj"
+"C:/Users/2406616/Documents/Unreal Projects/C_plus_plus/Intermediate/Build/Win64/x64/UnrealEditor/Development/C_plus_plus/Module.C_plus_plus.gen.cpp.obj"
+"C:/Users/2406616/Documents/Unreal Projects/C_plus_plus/Intermediate/Build/Win64/x64/UnrealEditor/Development/C_plus_plus/C_plus_plus.cpp.obj"
+"C:/Users/2406616/Documents/Unreal Projects/C_plus_plus/Intermediate/Build/Win64/x64/UnrealEditor/Development/C_plus_plus/MyMyActor.cpp.obj"
+"C:/Users/2406616/Documents/Unreal Projects/C_plus_plus/Intermediate/Build/Win64/x64/UnrealEditor/Development/C_plus_plus/PerModuleInline.gen.cpp.obj"
+"C:/Users/2406616/Documents/Unreal Projects/C_plus_plus/Intermediate/Build/Win64/x64/UnrealEditor/Development/C_plus_plus/Default.rc2.res"
+/OUT:"C:/Users/2406616/Documents/Unreal Projects/C_plus_plus/Intermediate/Build/Win64/x64/UnrealEditor/Development/C_plus_plus/UnrealEditor-C_plus_plus.lib"

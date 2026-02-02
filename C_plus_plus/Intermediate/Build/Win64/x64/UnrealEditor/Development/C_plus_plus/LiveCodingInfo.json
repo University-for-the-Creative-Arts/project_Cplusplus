@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.C_plus_plus.gen.cpp.obj": [
+			"C_plus_plus.init.gen.cpp.obj",
+			"MyMyActor.gen.cpp.obj"
+		]
+	}
+}

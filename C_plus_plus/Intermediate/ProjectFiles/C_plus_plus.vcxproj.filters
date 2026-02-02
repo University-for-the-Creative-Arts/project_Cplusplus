@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\C_plus_plus.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\C_plus_plus.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\C_plus_plusEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\C_plus_plus">
+      <UniqueIdentifier>{68CC8853-3B3E-35B6-9D65-6ED9690318E9}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\C_plus_plus\C_plus_plus.Build.cs">
+      <Filter>Source\C_plus_plus</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\C_plus_plus\C_plus_plus.cpp">
+      <Filter>Source\C_plus_plus</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\C_plus_plus\C_plus_plus.h">
+      <Filter>Source\C_plus_plus</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\C_plus_plus\MyMyActor.cpp">
+      <Filter>Source\C_plus_plus</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\C_plus_plus\MyMyActor.h">
+      <Filter>Source\C_plus_plus</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
