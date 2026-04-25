@@ -1,0 +1,89 @@
+Log started at 04/24/2026 14:09:53 (2026-04-24T13:09:53Z)
+Resolved project argument C:/Users/Student/Documents/GitHub/project_Cplusplus/C_plus_plus/C_plus_plus.uproject to C:\Users\Student\Documents\GitHub\project_Cplusplus\C_plus_plus\C_plus_plus.uproject
+No config file at C:\ProgramData\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+No config file at C:\Users\Student\AppData\Local\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+No config file at C:\Users\Student\Documents\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Configuration will be read from:
+  C:\Users\Student\AppData\Roaming\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Reading configuration file from: C:\Users\Student\AppData\Roaming\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Reading configuration file from: C:\Users\Student\Documents\GitHub\project_Cplusplus\C_plus_plus\Saved\UnrealBuildTool\BuildConfiguration.xml
+Reading configuration file from: C:\Users\Student\AppData\Local\UnrealEngine\Intermediate\Build\UnrealBuildTool.Env.BuildConfiguration.xml
+Log file: C:\Users\Student\Documents\GitHub\project_Cplusplus\C_plus_plus\Saved\Logs\UnrealVersionSelector-2026.04.24-14.09.52.log
+
+Setting temp directory to 'C:\Users\Student\AppData\Local\Temp\UnrealBuildTool\12c8af0c'
+    Registering build platform: UnrealBuildTool.AndroidPlatformFactory
+    Registering build platform: UnrealBuildTool.IOSPlatformFactory
+    Registering build platform: UnrealBuildTool.LinuxPlatformFactory
+    Registering build platform: UnrealBuildTool.MacPlatformFactory
+    Registering build platform: UnrealBuildTool.TVOSPlatformFactory
+    Registering build platform: UnrealBuildTool.WindowsPlatformFactory
+Found Windows 10 SDK root at C:\Program Files\Windows Kits\10 (1)
+Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (2)
+Found Windows 10 SDK version 10.0.26100.0 at C:\Program Files (x86)\Windows Kits\10
+Found Universal CRT version 10.0.26100.0 at C:\Program Files (x86)\Windows Kits\10
+Win64 Installed SDK(s): MinVersion_Sdk=10.0.19041.0, MaxVersion_Sdk=10.9.99999.0, CurrentVersion_Sdk=10.0.26100.0, Version_AutoSdk=10.0.22621.0, CurrentVersion_AutoSdk=
+        Registering build platform: Win64 - buildable: True
+    Registering build platform: UnrealBuildTool.VisionOSPlatformFactory
+Resolved project argument C:/Users/Student/Documents/GitHub/project_Cplusplus/C_plus_plus/C_plus_plus.uproject to C:\Users\Student\Documents\GitHub\project_Cplusplus\C_plus_plus\C_plus_plus.uproject
+Reading configuration file from cache (C:\Users\Student\Documents\GitHub\project_Cplusplus\C_plus_plus\Intermediate\Build\XmlConfigCache.bin): C:\Users\Student\AppData\Roaming\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Reading configuration file from cache (C:\Users\Student\Documents\GitHub\project_Cplusplus\C_plus_plus\Intermediate\Build\XmlConfigCache.bin): C:\Users\Student\Documents\GitHub\project_Cplusplus\C_plus_plus\Saved\UnrealBuildTool\BuildConfiguration.xml
+Reading configuration file from cache (C:\Users\Student\Documents\GitHub\project_Cplusplus\C_plus_plus\Intermediate\Build\XmlConfigCache.bin): C:\Users\Student\AppData\Local\UnrealEngine\Intermediate\Build\UnrealBuildTool.Env.BuildConfiguration.xml
+Registering project generator UnrealBuildTool.AndroidProjectGenerator for Android
+Skipping project file generator registration for Android due to no valid BuildPlatform.
+Registering project generator UnrealBuildTool.IOSProjectGenerator for IOS
+Skipping project file generator registration for IOS due to no valid BuildPlatform.
+Registering project generator UnrealBuildTool.LinuxProjectGenerator for Linux
+Skipping project file generator registration for Linux due to no valid BuildPlatform.
+Registering project generator UnrealBuildTool.LinuxProjectGenerator for LinuxArm64
+Skipping project file generator registration for LinuxArm64 due to no valid BuildPlatform.
+Registering project generator UnrealBuildTool.MacProjectGenerator for Mac
+Skipping project file generator registration for Mac due to no valid BuildPlatform.
+Registering project generator UnrealBuildTool.TVOSProjectGenerator for TVOS
+Skipping project file generator registration for TVOS due to no valid BuildPlatform.
+Registering project generator UnrealBuildTool.WindowsProjectGenerator for Win64
+Registering project generator UnrealBuildTool.VisionOSProjectGenerator for VisionOS
+Skipping project file generator registration for VisionOS due to no valid BuildPlatform.
+
+---   SDK INFO START   ---
+---   SDK INFO END   ---
+
+
+Generating VisualStudio project files:
+Discovering modules, targets and source code for project...
+Unable to enumerate Visual Studio installations
+Detected supported platforms: Win64
+Adding projects for all targets...
+Skipping C:\Program Files\Epic Games\UE_5.6\Engine\Intermediate\Build\BuildRules\UE5Rules.dll: File is installed
+Skipping C:\Program Files\Epic Games\UE_5.6\Engine\Intermediate\Build\BuildRules\UE5ProgramRules.dll: File is installed
+Adding projects for all targets took 1.80s
+Visual Studio 2022 x64 must be installed in order to build this target.
+BuildException: Visual Studio 2022 x64 must be installed in order to build this target.
+   at UnrealBuildTool.VCEnvironmentParameters..ctor(WindowsCompiler Compiler, WindowsCompiler ToolChain, UnrealTargetPlatform Platform, UnrealArch Architecture, String CompilerVersion, String ToolchainVersion, String WindowsSdkVersion, String SuppliedSdkDirectoryForVersion, Boolean bUseCPPWinRT, Boolean bAllowClangLinker, Boolean bAllowRadLinker, ILogger Logger)
+   at UnrealBuildTool.VCEnvironment.Create(WindowsCompiler Compiler, WindowsCompiler ToolChain, UnrealTargetPlatform Platform, UnrealArch Architecture, String CompilerVersion, String ToolchainVersion, String WindowsSdkVersion, String SuppliedSdkDirectoryForVersion, Boolean bUseCPPWinRT, Boolean bAllowClangLinker, Boolean bAllowRadLinker, ILogger Logger)
+   at UnrealBuildTool.WindowsPlatform.CreateVCEnvironment(TargetRules Target)
+   at UnrealBuildTool.WindowsPlatform.ValidateTarget(TargetRules Target)
+   at UnrealBuildTool.RulesAssembly.CreateTargetRulesInstance(String TypeName, TargetInfo TargetInfo, ILogger Logger, Boolean IsTestTarget, TargetRulesValidationOptions ValidationOptions)
+   at UnrealBuildTool.RulesAssembly.CreateTargetRules(String TargetName, UnrealTargetPlatform Platform, UnrealTargetConfiguration Configuration, UnrealArchitectures Architectures, FileReference ProjectFile, CommandLineArguments Arguments, ILogger Logger, Boolean IsTestTarget, TargetRulesValidationOptions ValidationOptions, UnrealIntermediateEnvironment IntermediateEnvironment)
+   at UnrealBuildTool.ProjectFileGenerator.AddProjectsForAllTargets(PlatformProjectGeneratorCollection PlatformProjectGenerators, List`1 AllGames, List`1 AllTargetFiles, String[] Arguments, List`1 EngineProjects, List`1 GameProjects, Dictionary`2 ProjectFileToUProjectFile, Dictionary`2 ProgramProjects, Dictionary`2 RulesAssemblies, ILogger Logger)
+   at UnrealBuildTool.ProjectFileGenerator.GenerateProjectFiles(PlatformProjectGeneratorCollection PlatformProjectGenerators, String[] Arguments, ILogger Logger)
+   at UnrealBuildTool.ProjectFileGenerator.GenerateProjectFiles(PlatformProjectGeneratorCollection PlatformProjectGenerators, String[] Arguments, Boolean bCacheDataForEditor, ILogger Logger)
+   at UnrealBuildTool.GenerateProjectFilesMode.ExecuteAsync(CommandLineArguments Arguments, ILogger Logger)
+   at UnrealBuildTool.UnrealBuildTool.Main(String[] ArgumentsArray)
+WriteFileIfChanged() wrote 0 changed files of 4 requested writes.
+
+Timeline:
+[  0.007]  +2.020 Main
+   0.007          [  0.000]  +0.407 <unknown>
+   0.415          [  0.407]  +0.736 Apply XmlConfig
+   1.151          [  1.143]  +0.299 <unknown>
+   1.451          [  1.443]  +0.572 RegisterPlatforms
+[  2.028]  +2.331 GenerateProjectFilesMode
+   2.028          [  0.000]  +0.273 <unknown>
+   2.302          [  0.273]  +2.057 Generating VisualStudio project files
+   2.431             0.402          [  0.129]  +0.109 DiscoverTargets
+   2.550             0.521          [  0.247]  +1.802 Adding projects for all targets
+[  4.382]  +0.007 TelemetryService.FlushEvents
+[  4.395]
+
+Result: Failed (OtherCompilationError)
+Total execution time: 4.40 seconds
